@@ -1,0 +1,100 @@
+/* Global styles */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Header styles */
+header {
+	background: #222;
+	color: #fff;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: 3px solid #dc3d3d;
+}
+
+#branding {
+	float: left;
+}
+
+#branding h1 {
+	margin: 0;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+	padding-top: 15px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #dc3d3d;
+}
+
+/* Showcase styles */
+#showcase {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	text-align: center;
+	color: #fff;
+}
+
+#showcase h1 {
+	font-size: 48px;
+	margin-top: 0;
+}
+
+#showcase p {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+/* Main section styles */
+#main {
+	padding: 20px 0;
+}
+
+/* Article styles */
+article {
+	margin-bottom: 40px;
+}
+
+article h1, article h2 {
+	color: #dc3d3d;
+	margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+	background: #222;
+	color: #fff;
+	padding: 20px 0;
+}
