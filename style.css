@@ -89,6 +89,10 @@ article h1, article h2 {
 
 /* Footer styles */
 footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
 	background: #222;
 	color: #fff;
 	padding: 20px 0;
