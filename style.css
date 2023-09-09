@@ -69,12 +69,12 @@ nav a:hover {
 
 /* Main section styles */
 #main {
-    background-color: blue;
-	background-size: 100%;
-	background-position: center;
+    background-color: lightblue;
+	background-size: auto;
+	/*background-position: center;
 	min-height: 100%;
 	text-align: center;
-	color: #fff;
+	color: #fff;&+*/
 }
 
 /* Article styles */
