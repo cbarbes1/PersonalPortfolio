@@ -70,7 +70,7 @@ nav a:hover {
 /* Main section styles */
 #main {
     background-color: lightblue;
-	background-size: auto;
+	background-size: 500px;
 	/*background-position: center;
 	min-height: 100%;
 	text-align: center;
