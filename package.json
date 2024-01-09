@@ -1,0 +1,15 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "This will be my portfolio webpage. The goal will be to publish this webpage with some code projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
