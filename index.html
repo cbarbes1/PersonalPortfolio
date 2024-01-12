@@ -2,54 +2,39 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta name="viewport" content="width=display-width, initial-scale=1.0"/>
-
 		<!-- CSS styles -->
-		<link rel="stylesheet" type="text/css" href="style.css">
-
-		<!-- Favicons -->
-	
-		<!-- Animate CSS CDN -->
-		<link 
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-		/>
+		<link rel="stylesheet" href="style.css">
 		<!--Title-->
 		<title>CJB | Personal Portfolio</title>
 	</head>
-	<body style="background-color: lightgray;">
-		<header class="top-bar">
-			<div class="container">
-				<h1>Cole Barbes</h1>
-				<nav>
-					<ul>
-						<li><a href="#">Home</a></li>
-						
-						<li><a href="#about">About</a></li>
-						
-						<li><a href="ContactInfo.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main>
-			<section>
-				<div>
-					<img src="./background.jpg"/>
+	<body>
+		<div class="container">
+			<header class="navbar">
+				<h1 class="title">Cole Barbes</h1>
+				<div class="nav">
+					<a href="#">
+						<button class="home-button">Home</button>
+					</a>
+					<a href="#about">
+						<button class="about-button">About</button>
+					</a>
+					<a href="ContactInfo.html">
+						<button class="contact-button">Contact Info</button>
+					</a>
 				</div>
-			</section>
-			<section id="about" class="main">
-				<div>
-					<h1>Welcome to The Portfolio Of Cole Barbes</h1>
-					<h2>About Me</h2>
-					<embed src="CBResume.pdf" width="100%" height="1000">
+			</header>
+			<main>
+				<div id="about" class="main">
+					<div>
+						<h2>About Me</h2>
+						<embed src="CBResume.pdf" width="100%" height="1000">
+					</div>
 				</div>
-			</section>
-		</main>
-		<footer>
-			<p>  &copy; 2024 Cole Barbes</p>
-		</footer>
+			</main>
+			<footer>
+				<p>  &copy; 2024 Cole Barbes</p>
+			</footer>
+		</div>
 	</body>
 
 </html>

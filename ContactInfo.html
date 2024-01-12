@@ -1,27 +1,106 @@
 <!DOCTYPE html>
-<head>
-    <title>Contact info for Cole</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-			<div id="branding">
-				<h1>My Contact Info</h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="About.html">About</a></li>
-					<li><a href="ContactInfo.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-    </header>
-	<div>
-		<form>
-			<label for="name">Please Enter Full Name</label>
-			<input id="name" name="name" type="text">
-		</form>
-	</div>
-</body>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <!-- meta elements -->
+    <meta charset="UTF-8">
+    <!-- links and such -->
+    <link rel="stylesheet" href="stylesContent.css">
+    <!-- title -->
+    <title>Contact Form</title>
+  </head>
+  <!-- body -->
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Contact Form</h1>
+        <p id="description">Please enter your contact info below. Thank you!</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name<input type="text" id="name" placeholder="Enter your Name" required></label>
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email<input type="email" id="email" placeholder="Enter your Email" required></label>
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Age (optional)<input type="number" id="number" min="13" max="120" placeholder="Enter your Age"></label>
+        </div>
+        <div class="form-group">
+          <p>Where did you find me?</p>
+          <select id="dropdown">
+            <option>Select one</option>
+            <option>Instagram</option>
+            <option>LinkedIn</option>
+            <option>Tutoring</option>
+            <option>Lab Assistant</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>What is the purpose of the contact?</p>
+          <label>
+            <input name="contact-type" value="Math tutoring" type="radio" class="input-radio">
+            Math Tutoring
+          </label>
+          <label>
+            <input name="contact-type" value="COSC tutoring" type="radio" class="input-radio">
+            COSC Tutoring
+          </label>
+          <label>
+            <input name="contact-type" value="tutoring" type="radio" class="input-radio">
+            Professional
+          </label>
+          <label>
+            <input name="contact-type" value="other" type="radio" class="input-radio">
+            Other
+          </label>
+        </div>
+        <div class="form-group">
+
+        </div>
+        <div class="form-group">
+          <p>What sort of issue can I assist with?</p>
+          <span class="clue">(check all that apply)</span>
+          <label>
+            <input type="checkbox" name="prefer" value="Mathematics" class="input-checkbox">
+            Mathematics
+          </label>
+          <label>
+            <input type="checkbox" name="prefer" value="Computer Science" class="input-checkbox">
+            Computer Science
+          </label>
+          <label>
+            <input type="checkbox" name="prefer" value="Peer-to-Peer Assistance" class="input-checkbox">
+            Peer-to-Peer Assistance
+          </label>
+          <label>
+            <input type="checkbox" name="prefer" value="Job Offer" class="input-checkbox">
+            Job Offer
+          </label>
+          <label>
+            <input type="checkbox" name="prefer" value="Other" class="input-checkbox">
+            Other
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Which best describes your current role?</p>
+          <select id="dropdown" required>
+            <option>Select one</option>
+            <option>Student</option>
+            <option>Professor</option>
+            <option>Full Time</option>
+            <option>Part Time</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Any comments or concerns?</p>
+          <textarea id="comments" class="input-textarea" name="comments" placeholder="Enter your Comment Here..."></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" id="submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
