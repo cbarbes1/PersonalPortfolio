@@ -26,6 +26,7 @@ h1 {
 	width: 100%;
 	background-color: #1b1b32;
 	border-bottom: 5px solid gold;
+	position: fixed;
 }
 
 .nav {
@@ -71,9 +72,14 @@ h1 {
 
 .about {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
 	margin: auto;
 	padding-left: 20px;
+	margin: 0;
 }
 
 footer {
