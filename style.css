@@ -5,13 +5,14 @@ body {
 	background-color: lightgray;
 }
 
+html {
+	box-sizing: border-box;
+}
+
 h1 {
 	font-weight: 400;
 }
 
-header {
-	background-color: rgb(255, 0, 0);
-}
 
 .container {
 	width: 100%;
@@ -22,42 +23,62 @@ header {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	width: 100%;
+	background-color: #1b1b32;
+	border-bottom: 5px solid gold;
 }
 
 .nav {
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list a {
+	display: flex;
+	padding: 2rem;
+	margin: 0;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+
+.nav-list a:hover {
+	background-color: #FF0000;
+	height: 100
 }
 
 
 .title {
+	padding-left: 20px;
 	display: flex;
 	justify-content: flex-start;
 	color: white;
 }
 
-.main {
-	flex-grow: 1;
-	padding: 20 px;
-	text-indent: 25px;
-	font-family: 'Arial', sans-serif;
-	flex: 1;
+.about {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-left: 20px;
 }
 
-.main h1 h2 {
-	flex-grow: 1;
-	padding: 20px;
-}
-
-.resume {
-	margin: 0;
-	text-indent: 25px;
-	font-family: 'Arial', sans-serif;
-	flex: 1;
-	padding: 20 px;
-}
-
-.foot p {
-	bottom: 0;
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-left: 20px;
 }
