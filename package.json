@@ -10,6 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^14.1.1"
-  }
+    "http-server": "^14.1.1",
+    "node": "^18.20.1",
+    "update": "^0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbarbes1/PersonalPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbarbes1/PersonalPortfolio/issues"
+  },
+  "homepage": "https://github.com/cbarbes1/PersonalPortfolio#readme"
 }
