@@ -4,32 +4,11 @@
 	padding: 0;
 }
 
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
-	html {
-		font-size: 60%;
-	}
-}
-  
-  /* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-	html {
-		font-size: 58%;
-	}
-}
-  
-  /* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-	html {
-		font-size: 55%;
-	}
-}
-
-
 body {
 	font-family: 'Poppins', sans-serif;
 	background-color: lightgray;
-	width: 100%;
+	width: auto;
+	overflow-x: hidden;
 }
 
 html {
@@ -96,27 +75,35 @@ img {
 	font-weight: 400;
 }
 
+.content {
+	display: flex;
+	flex-direction: column;
+	overscroll-behavior: none;
+}
+
+.about-me {
+	height: 100%;
+	width: 100%;
+	background-color:#FF0000;
+}
 .about {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	padding: 100px;
 	width: 100%;
 	height: 100vh;
 	background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 	background-color: #000;
 	color: #FFF;
-	flex-grow: 1;
+	
 }
 
 .description {
 	display: flex;
 	justify-content: center;
+	
 }
 
-.schedule {
-	display: flex;
-	justify-content: flex-end;
-}
 
 .projects {
 	display: flex;
@@ -126,6 +113,7 @@ img {
 	width: 100%;
 	height: 100vh;
 	padding: 10rem 2rem;
+	
 }
 
 .contacts {
@@ -144,12 +132,29 @@ img {
 	font-weight: 600;
 }
 
+#schedule {
+	width: 100%;
+	height: 100vh;
+	
+}
+
+.face {
+	border-radius: 45%;
+	width: auto;
+	height: auto;
+	max-width: 300px;
+	max-height: 400px;
+	object-fit: cover;
+	display: block;
+	margin: 0 100px;
+
+}
 footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 50px;
-	width: 100%;
+	width: 100vw;
 	height: 8vh;
 }
