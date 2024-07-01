@@ -2,7 +2,7 @@ const canvas = document.getElementById('drawingCanvas');
 const context = canvas.getContext('2d');
 let drawing = false;
 
-canvas.width = window.innerWidth - 40;
+canvas.width = window.innerWidth - 100;
 canvas.height = window.innerHeight - 100;
 
 canvas.addEventListener('mousedown', startDrawing);

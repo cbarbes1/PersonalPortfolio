@@ -34,6 +34,7 @@ img {
 	position: fixed;
 	height: 50px;
 	overflow:hidden;
+	
 }
 
 .nav {
@@ -100,8 +101,8 @@ img {
 
 .description {
 	display: flex;
-	justify-content: center;
-	
+	flex-direction: column;
+	align-items: center;
 }
 
 
@@ -146,7 +147,7 @@ img {
 	max-height: 400px;
 	object-fit: cover;
 	display: block;
-	margin: 0 100px;
+	margin: 100px;
 
 }
 footer {
