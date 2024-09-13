@@ -31,7 +31,7 @@ img {
 	width: 100%;
 	background-color: #1b1b32;
 	border-bottom: 5px solid gold;
-	position: fixed;
+	position: sticky;
 	height: 50px;
 	overflow:hidden;
 	
@@ -67,13 +67,40 @@ img {
 	background-color: #FF0000;
 }
 
+.Introduction {
+	display: grid;
+	grid-template-rows:max-content;
+	width:max-content;
+	padding: 2rem;
+	
+}
+
+/* .Introduction h1 {
+	padding: 2rem;
+	margin: 1rem;
+} */
+
 
 .title {
 	padding-left: 10px;
 	display: flex;
 	justify-content: flex-start;
-	color: white;
 	font-weight: 400;
+	flex-direction: column;
+}
+
+.title h1 {
+	padding: 2rem;
+	margin: 1rem;
+}
+
+.title p {
+	padding-left: 100px;
+}
+.start-title {
+	padding-left: 10px;
+	color: white;
+	font-weight: 400
 }
 
 .content {
@@ -102,7 +129,7 @@ img {
 .description {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 }
 
 
@@ -140,16 +167,16 @@ img {
 }
 
 .face {
-	border-radius: 45%;
+	
 	width: auto;
-	height: auto;
+	height: 100%;
 	max-width: 300px;
 	max-height: 400px;
 	object-fit: cover;
 	display: block;
-	margin: 100px;
-
+	grid-row:auto;
 }
+
 footer {
 	display: flex;
 	flex-direction: column;
